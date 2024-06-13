@@ -1,0 +1,22 @@
+.flexStart{
+  display: flex; 
+  justify-content: start; 
+  align-items: center;
+}
+.flexCenter{
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+}
+.anim{
+  transition: all 300ms ease;
+}
+.socialIcon{
+   display: flex; 
+  justify-content: center; 
+  align-items: center;
+  width: 30px; 
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgba(153,153,153,0.365);
+}
