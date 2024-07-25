@@ -38,8 +38,8 @@ const Header = () => {
     {/* SLIDE LEFT MENU */}
     <div className="bg-slate-900 text-white flex flex-col justify-start items-start p-4 w-[50%] md:w-[30%] h-full" onClick={e=>e.stopPropagation()}>
     
-    <div className="flex flex-col justify-start items-center mt-6">
-    <img src={img} className="w-[50%] md:w-[20%] rounded-[50%]" />
+    <div className="flex flex-col justify-start items-center mt-12">
+
     <h3 className="text-lg font-semibold">Anas A.</h3>
     
     <div className="w-full flex justify-around md:justify-center md:gap-4 items-center py-2 ">
