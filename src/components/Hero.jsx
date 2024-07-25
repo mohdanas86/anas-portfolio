@@ -2,7 +2,7 @@ import React from 'react'
 import { FaArrowRightLong } from "react-icons/fa6";
 
 const Hero = () => {
-    const img = "https://bootstrapmade.com/demo/templates/iPortfolio/assets/img/profile-img.jpg";
+   // const img = "https://anas-frkr.onrender.com/ak.png";
   return (
     <div className="w-full bg-slate-900">
     <div id="hero" className="flex justify-between items-center flex-col md:flex-row w-full md:w-[80%] mx-auto py-[3rem] md:py-[5rem] md:px-0 px-4">
@@ -22,9 +22,7 @@ const Hero = () => {
     </div>
     </div>
     {/* RIGHT SECTION */}
-    <div className="flex justify-center items-center flex-col  w-full order-1 md:order-2 py-8 md:py-0">
-  <img src={img} className="w-[50%] md:w-[30%] rounded-[50%]" />
-    </div>
+
     </div>
     </div>
   )
